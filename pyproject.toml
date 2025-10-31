@@ -3,8 +3,8 @@ requires = [ "setuptools>=77.0.3", "setuptools-scm>=8.0" ]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PGMInt"
-version = "1.1"
+name = "Thorlabs-UPSeries"
+version = "1.0"
 authors = [
   { name="Davis V. Garrad", email="dvlast@uwaterloo.ca" },
 ]
@@ -16,13 +16,13 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-    "numpy", 
-    "matplotlib",
-    "dools",
+    "pyserial",
+    "pyvisa",
+    "pyvisa-py"
 ]
 license = "GPL-3.0-only"
 license-files = ["COPYING"]
 
 [project.urls]
-Homepage = "https://github.com/Davis-Garrad/Phase-Grating-Moire-Interferometry"
-Issues = "https://github.com/Davis-Garrad/Phase-Grating-Moire-Interferometry/issues"
+Homepage = "https://github.com/Davis-Garrad/Thorlabs-UPSeries"
+Issues = "https://github.com/Davis-Garrad/Thorlabs-UPSeries/issues"
